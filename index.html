@@ -2,12 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>FIGMA | Макеты для верстки — Верстка страницы</title>
+    <title>Talent-Q</title>
     <meta
       name="description"
       content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки"
     />
     <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <!-- Начало: Данный блок удалять нельзя -->
@@ -30,7 +32,602 @@
     <!-- Конец -->
 
     <div class="main">
-      <h1>Talent-Q</h1>
+      <!-- WRAPPER1 -->
+      <div class="wrapper1">
+        <!-- HEADER -->
+        <header class="header">
+          <div class="container header__container">
+            <div class="header__nav">
+              <div class="header__logo">
+                <a href="">
+                  <p><img src="./img/header-logo.svg" alt="header-logo img" /></p>
+                </a>
+              </div>
+              <ul class="header__links">
+                <li>
+                  <a class="header__links-item active" href="#!">Регистрация</a>
+                </li>
+                <li>
+                  <a class="header__links-item noactive" href="#!">Вход</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </header>
+        <!-- HERO -->
+        <section class="hero">
+          <div class="container hero__container">
+            <div class="hero__block">
+              <div class="hero__desc">
+                <div class="hero__title">
+                  Первая интеллектуальная платформа для подготовки к тестам <span>Talent Q</span>
+                </div>
+                <div class="hero__subtitle">от эксперта Антона Добрышина</div>
+                <div class="hero__btns">
+                  <div class="hero__btns-left">
+                    <button type="button" class="btn active">
+                      <span>Начать сейчас</span>
+                      <img src="./img/header-icon.svg" alt="hero icon" />
+                    </button>
+                    <p>Время - деньги</p>
+                  </div>
+                  <div class="hero__btns-right">
+                    <button type="button" class="btn noactive">
+                      <span>Подробнее</span>
+                      <img src="./img/hero-arrow-white.svg" alt="arrow icon" />
+                    </button>
+                    <p>Формула успеха</p>
+                  </div>
+                </div>
+              </div>
+              <div class="hero__img">
+                <div class="hero__wrap">
+                  <img src="./img/hero-img.png" alt="hero img" />
+                </div>
+              </div>
+            </div>
+            <div class="hero__link">
+              <div class="hero__wrapper">
+                <a href="#!">
+                  <img src="./img/hero-arrow-grey.svg" alt="arrow icon" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- TITLE -->
+      <div class="title">
+        <div class="container title__container">
+          <div class="title__line">
+            <img src="./img/title-line.svg" alt="line icon" />
+          </div>
+          <div class="title__text"><span>Talent Q:</span> 6 шагов к успеху</div>
+          <div class="title__shadow"><img src="./img/title-shadow.svg" alt="shadow img" /></div>
+        </div>
+      </div>
+      <!-- WRAPPER2 -->
+      <div class="wrapper2">
+        <div class="wrapper2__img">
+          <img src="./img/wrapper2.png" alt="wrapper2 image" />
+        </div>
+        <!-- LESSON1 -->
+        <section class="lesson1">
+          <div class="container lesson1__container">
+            <div class="lesson1__title">Изучите видеоуроки</div>
+            <div class="lesson1__block">
+              <div class="lesson1__video">
+                <div class="lesson1__video-screen">
+                  <a href="#!">
+                    <div class="lesson1__wrapper-left">
+                      <div class="lesson1__img">
+                        <img src="./img/play.svg" alt="play icon" />
+                      </div>
+                      <div class="lesson1__link">
+                        Смотреть <br />
+                        видеоуроки
+                      </div>
+                    </div>
+                  </a>
+                  <ul class="lesson1__timing">
+                    <!-- 1 -->
+                    <li class="lesson1__timing-item">
+                      <div class="lesson1__timing-bg">
+                        <img src="./img/lesson1-bg6.svg" alt="bg icon" />
+                      </div>
+                      <div class="lesson1__timing-text">
+                        Как успевать в отведенное время?
+                      </div>
+                      <div class="lesson1__circle">
+                        <img src="./img/lesson1-circle.svg" alt="circle icon" />
+                      </div>
+                    </li>
+                    <!-- 2 -->
+                    <li class="lesson1__timing-item">
+                      <div class="lesson1__timing-bg">
+                        <img src="./img/lesson1-bg7.svg" alt="bg icon" />
+                      </div>
+                      <div class="lesson1__timing-text">
+                        Сначала читать текст, а потом вопрос или наоборот?
+                      </div>
+                      <div class="lesson1__circle">
+                        <img src="./img/lesson1-circle.svg" alt="circle icon" />
+                      </div>
+                    </li>
+                  </ul>
+                  <div class="lesson1__line"></div>
+                  <div class="lesson1__control">
+                    <ul class="lesson1__control-left">
+                      <li class="lesson1__control-item">
+                        <a href="">
+                          <img src="./img/back.svg" alt="back icon" />
+                        </a>
+                      </li>
+                      <li class="lesson1__control-item">
+                        <a href="">
+                          <img src="./img/lesson1-polygon.svg" alt="play icon" />
+                        </a>
+                      </li>
+                      <li class="lesson1__control-item">
+                        <a href="">
+                          <img src="./img/next.svg" alt="next icon" />
+                        </a>
+                      </li>
+                      <li class="lesson1__control-item">
+                        <a href="">
+                          <img src="./img/sound.svg" alt="sound icon" />
+                        </a>
+                      </li>
+                      <li>0:00 / 16:44</li>
+                    </ul>
+                    <div class="lesson1__control-right">
+                      <img src="./img/rectangle.svg" alt="rectangle icon" />
+                    </div>
+                  </div>
+                </div>
+                <div class="lesson1__video-text">
+                  <img src="./img/devices.svg" alt="devices icon" />
+                  <span>Удобно смотреть в любом устройстве</span>
+                </div>
+              </div>
+              <ul class="lesson1__list">
+                <!-- 1 -->
+                <li class="lesson1__item">
+                  <a href="#!">
+                    <div class="lesson1__wrapper">
+                      <div class="lesson1__video-next">
+                        <img src="./img/lesson1-polygon.svg" alt="polygon icon" />
+                        <div class="lesson1__time">07:51</div>
+                      </div>
+                      <div class="lesson1__text">Как успевать в отведенное время?</div>
+                    </div>
+                  </a>
+                </li>
+                <!-- 2 -->
+                <li class="lesson1__item">
+                  <a href="#!">
+                    <div class="lesson1__wrapper">
+                      <div class="lesson1__video-next">
+                        <img src="./img/lesson1-polygon.svg" alt="polygon icon" />
+                        <div class="lesson1__time">07:51</div>
+                      </div>
+                      <div class="lesson1__text">Что читать сначала: текст или вопрос?</div>
+                    </div>
+                  </a>
+                </li>
+                <!-- 3 -->
+                <li class="lesson1__item">
+                  <a href="#!">
+                    <div class="lesson1__wrapper">
+                      <div class="lesson1__video-next">
+                        <img src="./img/lesson1-polygon.svg" alt="polygon icon" />
+                        <div class="lesson1__time">07:51</div>
+                      </div>
+                      <div class="lesson1__text">Как быстро находить верные ответы?</div>
+                    </div>
+                  </a>
+                </li>
+                <!-- 4 -->
+                <li class="lesson1__item">
+                  <a href="#!">
+                    <div class="lesson1__wrapper">
+                      <img src="./img/speaker.svg" alt="speaker icon" />
+                      <div class="lesson1__text">
+                        Об этом и не только расскажет
+                        <span>практикующий эксперт Антон Добрышин.</span>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <!-- LESSON2 -->
+        <section class="lesson2">
+          <div class="cotainer lesson2__cotainer">
+            <div class="lesson2__desc">
+              <div class="lesson2__desc-title">
+                Тест вашего <br />
+                работадателя
+              </div>
+              <div class="lesson2__desc-img">
+                <img src="./img/lesson2-img.png" alt="lesson2 image" />
+              </div>
+              <div class="lesson2__desc-logo">
+                <img src="./img/lesson2-logo.svg" alt="logo image" />
+              </div>
+            </div>
+            <div class="lesson2__test">
+              <div class="lesson2__test-title">Попробуйте реальные тесты</div>
+              <div class="lesson2__test-text">
+                Наши и реальные тесты идентичны по сложности, тематике и формату вопросов.
+              </div>
+              <button type="button" class="btn btn-red">
+                <span>Пройти тест </span>
+                <p class="btn0-img-red"></p>
+              </button>
+            </div>
+          </div>
+        </section>
+        <!-- SITUATIONS -->
+        <section class="situations">
+          <div class="cotainer situations__container">
+            <div class="situations__title">Разберите нестандартные ситуации</div>
+            <div class="situations__items">
+              <!-- 1 -->
+              <div class="situations__item">
+                <div class="situations__desc">
+                  <div class="situation__block">
+                    <div class="situations__label">
+                      <img src="./img/situation-label.svg" alt="label icon" />
+                    </div>
+                    <div class="situations__text">
+                      Ноутбук начал <span>перезагружаться</span> прямо посреди теста
+                    </div>
+                  </div>
+                  <div class="situations__img"></div>
+                </div>
+              </div>
+              <!-- 2 -->
+              <div class="situations__item">
+                <div class="situations__desc">
+                  <div class="situation__block">
+                    <div class="situations__label">
+                      <img src="./img/situation-label.svg" alt="label icon" />
+                    </div>
+                    <div class="situations__text">
+                      Не удается запустить тестирование — <span>техническая ошибка</span>
+                    </div>
+                  </div>
+                  <div class="situations__img"></div>
+                </div>
+              </div>
+              <!-- 3 -->
+              <div class="situations__item">
+                <div class="situations__desc">
+                  <div class="situation__block">
+                    <div class="situations__label">
+                      <img src="./img/situation-label.svg" alt="label icon" />
+                    </div>
+                    <div class="situations__text">
+                      <span>Оборвалось интернет соединение</span> в самый ответственный момент
+                    </div>
+                  </div>
+                  <div class="situations__img"></div>
+                </div>
+              </div>
+              <!-- 4 -->
+              <div class="situations__item">
+                <div class="situations__desc">
+                  <div class="situation__block">
+                    <div class="situations__label">
+                      <img src="./img/situation-label.svg" alt="label icon" />
+                    </div>
+                    <div class="situations__text">
+                      Загрузился вопрос, <span>но не загрузилась таблица</span>
+                    </div>
+                  </div>
+                  <div class="situations__img"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- PLAN -->
+        <section class="plan">
+          <div class="cotainer plan__container">
+            <div class="plan__block">
+              <div class="plan__block-text">
+                <div class="plan__title">Без паники!</div>
+                <div class="plan__subtitle">
+                  У нас есть план эвакуации из любой проблемной ситуации.
+                </div>
+              </div>
+              <div class="plan__block-img">
+                <img src="./img/plan-lesson3/plan-img.png" alt="plan image" />
+              </div>
+              <button type="button" class="btn btn-white">
+                <span>Прокачать реакцию</span>
+                <img src="./img/plan-lesson3/plan-btn-img.svg" alt="plan icon" />
+              </button>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- WRAPPER3 -->
+      <div class="wrapper3">
+        <!-- LESSON4 -->
+        <section class="lesson4">
+          <div class="container lesson4__container">
+            <div class="lesson4__block">
+              <div class="lesson4__desc">
+                <div class="lesson4__title">
+                  Посмотрите глазами работодателя
+                </div>
+                <div class="lesson4__text">
+                  <p>
+                    По результатам наших тестов вы получите отчёты, идентичные тем, что получает
+                    работодатель после реального теста.
+                  </p>
+                  <p>Это поможет вам оценить собственные силы в глазах будущего босса.</p>
+                </div>
+                <div class="lesson4__line-left">
+                  <img src="./img/lines/lesson4-line-left_animated.svg" alt="lesson4-line image" />
+                </div>
+                <button type="button" class="btn btn-red">
+                  <span>Скачать отчеты</span>
+                  <p class="btn1-img-red"></p>
+                </button>
+              </div>
+              <div class="lesson4__analytics">
+                <img src="./img/lines/lesson4-img_animated.svg" alt="lesson4 image" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- LESSON5 -->
+        <section class="lesson5">
+          <div class="container lesson5__container">
+            <div class="lesson5__block">
+              <div class="lesson5__img">
+                <img src="./img/lesson5-img.png" alt="lesson5 image" />
+              </div>
+              <div class="lesson5__desc">
+                <div class="lesson5__title">
+                  <p>
+                    <img src="./img/lesson5-title.svg" alt="title image" />
+                  </p>
+                  <p>Пройдите верификацию и прокторинг</p>
+                </div>
+                <div class="lesson5__text">
+                  <p>
+                    Иногда работодатели устанавливают за кандидатами роботизированное наблюдение или
+                    просят пройти повторное тестирование.
+                  </p>
+                  <p>
+                    Узнайте, что именно отслеживает система. Опробуйте верификацию и прокторинг на
+                    нашей платформе!
+                  </p>
+                </div>
+                <button type="button" class="btn btn-red">
+                  <span>Пройти верификацию</span>
+                  <p class="btn2-img-red"></p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- LESSON6 -->
+        <section class="lesson6">
+          <div class="container lesson6__container">
+            <div class="lesson6__block">
+              <div class="lesson6__desc">
+                <div class="lesson6__title">
+                  <p>
+                    <img src="./img/lesson6/lesson6-title.svg" alt="title image" />
+                  </p>
+                  <p>
+                    Получите нужный курс за минуту.
+                  </p>
+                </div>
+                <div class="lesson6__text">
+                  Скопируйте текст письма о назначении тестов и ответьте на несколько вопросов. Наш
+                  алгоритм определит систему тестирования, сформирует курс и укажет цену.
+                </div>
+                <button type="button" class="btn btn-red">
+                  <span>Хочу и беру!</span>
+                  <p class="btn3-img-red"></p>
+                </button>
+              </div>
+              <div class="lesson6__scheme">
+                <!-- FIG1 -->
+                <div class="lesson6__scheme-fig1">
+                  <img src="./img/lesson6/scheme-fig1.svg" alt="fig1 image" />
+                </div>
+                <!-- LETTER  -->
+                <div class="lesson6__scheme-letter-text">
+                  <img src="./img/lesson6/scheme-leter-text.svg" alt="text image" />
+                </div>
+                <div class="lesson6__scheme-letter-fig">
+                  <img src="./img/lesson6/scheme-letter-fig.svg" alt="letter-fig image" />
+                </div>
+                <!-- QUESTION -->
+                <div class="lesson6__scheme-question-text">
+                  <img src="./img/lesson6/scheme-question-text.svg" alt="text image" />
+                </div>
+                <div class="lesson6__scheme-question-fig">
+                  <img src="./img/lesson6/scheme-question-fig.svg" alt="letter-fig image" />
+                </div>
+                <!-- FIG2 -->
+                <div class="lesson6__scheme-fig2">
+                  <img src="./img/lesson6/scheme-fig2.svg" alt="fig2 image" />
+                </div>
+                <!-- CONNECTION1 -->
+                <div class="lesson6__scheme-connection1">
+                  <img src="./img/lesson6/scheme-connection1.svg" alt="connection image" />
+                </div>
+                <!-- CONNECTION2 -->
+                <div class="lesson6__scheme-connection2">
+                  <img src="./img/lesson6/scheme-connection2.svg" alt="connection image" />
+                </div>
+                <!-- FIG3 -->
+                <div class="lesson6__scheme-fig3">
+                  <img src="./img/lesson6/scheme-fig3.svg" alt="fig2 image" />
+                </div>
+                <!-- COURSE -->
+                <div class="lesson6__scheme-course-text">
+                  <img src="./img/lesson6/scheme-course-text.svg" alt="text image" />
+                </div>
+                <div class="lesson6__scheme-course-fig">
+                  <img src="./img/lesson6/scheme-course-fig.svg" alt="letter-fig image" />
+                </div>
+
+                <!-- LETTER -->
+                <!-- <div class="lesson6__scheme-letter">
+                  <img src="./img/lesson6/scheme-leter-text.svg" alt="letter-text image" />
+                  <img src="./img/lesson6/scheme-letter-fig.svg" alt="letter-fig image" />
+                </div> -->
+                <!-- QUESTION -->
+                <!-- <div class="lesson6__scheme-question">
+                  <img src="./img/lesson6/scheme-question-text.svg" alt="question-text image" />
+                  <img src="./img/lesson6/scheme-question-fig.svg" alt="question-fig image" />
+                </div> -->
+                <!-- COURSE -->
+                <!-- <div class="lesson6__scheme-course">
+                  <img src="./img/lesson6/scheme-course-fig.svg" alt="course-fig image" />
+                  <img src="./img/lesson6/scheme-course-text.svg" alt="course-text image" />
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- USE -->
+        <section class="use">
+          <div class="container use__container">
+            <div class="use__title">Как воспользоваться платформой</div>
+            <ul class="use__stages">
+              <!-- 1 -->
+              <li class="use__stage">
+                <div class="use__label">
+                  <span value="_01">01</span>
+                </div>
+                <div class="use__subtitle">Проверка и подбор курса</div>
+                <p>
+                  <img src="./img/lesson1-polygon.svg" alt="polygon icon" />
+                  <span
+                    >Ответьте на несколько вопросов и вставьте в специальное окно текст письма о
+                    назначении тестов.
+                  </span>
+                </p>
+                <p>
+                  <img src="./img/lesson1-polygon.svg" alt="polygon icon" />
+                  <span
+                    >Наш алгоритм определит, действительно ли у вас Talent Q, чтобы вы зря не
+                    тратили деньги. Затем система сформирует необходимый курс и укажет цену.</span
+                  >
+                </p>
+              </li>
+              <!-- 2 -->
+              <li class="use__stage">
+                <div class="use__label">
+                  <span value="_02">02</span>
+                </div>
+                <div class="use__subtitle">
+                  Регистрация в системе
+                </div>
+                <p>
+                  <span>
+                    Войдите на платформу, используя код из СМС. Процедура займёт не больше минуты.
+                  </span>
+                </p>
+                <div class="use__icons">
+                  <div value="_sms">
+                    <img src="./img/sms.svg" alt="sms icon" />
+                  </div>
+                  <div>
+                    <img src="./img/minut.svg" alt="minut icon" />
+                  </div>
+                </div>
+                <button type="button" class="btn btn-white">
+                  <span>Поехали</span>
+                  <img src="./img/use-btn-img.svg" alt="use-btn icon" />
+                </button>
+              </li>
+              <!-- 3 -->
+              <li class="use__stage">
+                <div class="use__label">
+                  <span value="_03">03</span>
+                </div>
+                <div class="use__subtitle">Оплата подпсики</div>
+                <p>
+                  <img src="./img/lesson1-polygon.svg" alt="polygon icon" />
+                  <span
+                    >Выберите удобный способ онлайн-оплаты и не беспокойтесь: соединение
+                    защищено!</span
+                  >
+                </p>
+                <div class="use__icons">
+                  <div value="_visa">
+                    <img src="./img/visa.svg" alt="visa icon" />
+                  </div>
+                  <div value="_master-card">
+                    <img src="./img/master-card.svg" alt="master-card icon" />
+                  </div>
+                  <div value="_shield">
+                    <img src="./img/shield.svg" alt="shield icon" />
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!-- FOOTER -->
+        <footer class="footer">
+          <div class="container footer__container">
+            <div class="footer__line">
+              <img src="./img/footer-line.svg" alt="line image" />
+            </div>
+            <div class="footer__block">
+              <div class="footer__copyright">
+                <p>Политика конфиденциальности</p>
+                <p>Copyright 2020 Q solutions</p>
+              </div>
+              <ul class="footer__network">
+                <li class="footer__network-item">
+                  <a href="#!"><img src="./img/ins.svg" alt="ins icon" /></a>
+                </li>
+                <li class="footer__network-item">
+                  <a href="#!"><img src="./img/vk.svg" alt="vk icon" /></a>
+                </li>
+                <li class="footer__network-item">
+                  <a href="#!"><img src="./img/facebook.svg" alt="facebook icon" /></a>
+                </li>
+                <li class="footer__network-item">
+                  <a href="#!"><img src="./img/tlg.svg" alt="tlg icon" /></a>
+                </li>
+                <li class="footer__network-item">
+                  <a href="#!"><img src="./img/ut.svg" alt="ut icon" /></a>
+                </li>
+                <li class="footer__network-item">
+                  <a href="#!"><img src="./img/wa.svg" alt="wa icon" /></a>
+                </li>
+              </ul>
+              <div class="footer__data">
+                <p>Пользовательское соглашение</p>
+                <p>
+                  <span>Добрышин Антон</span>
+                  <span>
+                    <img src="./img/footer-data-line.svg" alt="footer-line image" />
+                  </span>
+                  <span>+7 (999) 999 99 99</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
     </div>
+    <script type="text/javascript" src="./script.js"></script>
   </body>
 </html>
